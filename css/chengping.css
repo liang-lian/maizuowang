@@ -1,0 +1,51 @@
+body{
+    background: #f4f4f4;
+}
+/* sincerehire诚聘英才 */
+.sincerehire{
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    padding-left: 80px;
+    box-sizing: border-box;
+}
+.sincerehire h1{
+    font-size: 36px;
+    padding: 30px 0;
+}
+.sincerehire p{
+    color: #787878;
+    font-size: 14px;
+    padding: 10px 0;
+}
+.sincerehire .job-temp{
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.sincerehire .job-temp::before{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 870px;
+    height: 3px;
+    border-bottom: 1px dashed #d2d2d2;
+    left: 0;
+    bottom: 0;
+}
+.sincerehire .job-temp.active::before{
+    content: '';
+    display: block;
+    border-bottom: 0;
+}
+.sincerehire .job-temp h2{
+    font-size: 18px;
+    padding: 20px 0;
+    color: #ff5f16;
+}
+.sincerehire .job-temp h3{
+    font-size: 16px;
+    padding: 20px 0;
+}

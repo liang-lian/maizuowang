@@ -1,0 +1,113 @@
+/* banner */
+.banner{
+    width: 100%;
+    min-height: 480px;
+    background: url(../img/banner.jpg) no-repeat center top;
+}
+/* about关于我们 */
+.about_us{
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+    padding-top: 20px;
+}
+.about_us .container h1{
+    height: 50px;
+    padding: 30px 0;
+    line-height: 50px;
+    font-size: 30px;
+}
+.about_us p{
+    font-size: 16px;
+    color: #6e6e6e;
+    line-height: 25px;
+    padding-bottom: 30px;
+}
+.about_us ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content:space-between;
+}
+.about_us ul li{
+    width: 300px;
+    height: 180px;
+    margin: 10px 0;
+}
+/* content使用帮助 */
+.content{
+    width:100%;
+    height: auto;
+    padding-top:40px;
+    padding-bottom: 100px;
+}
+.content::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.content  .left{
+    width: 154px;
+    height: 238px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    float: left;
+    padding-top:50px;
+    box-sizing: border-box;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.content .left ul{
+    width: 100%;
+}
+.content .left ul li{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 14px;
+}
+.content .left ul li.active a{
+    color:#ff5f16;
+}
+.content .left ul li:hover a{
+    animation: right .5s;
+}
+.content .left ul li.active:hover a{
+    animation: active .5s;
+}
+.content .right{
+    float: left;
+    width: 750px;
+    height:auto;
+}
+.content .right h1{
+    font-size: 30px;
+    height: 50px;
+    line-height: 50px;
+    padding: 20px 0;
+    color: #222426;
+}
+.content .right em{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: #6d6d6d;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    float: left;
+    margin-right: 10px;
+}
+.content .right span{
+    color: #222426;
+    font-size: 18px;
+}
+.content .right p{
+    padding: 15px 0 15px 26px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #6e6e6e;
+}
+
